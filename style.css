@@ -1,0 +1,93 @@
+body{
+    background: #333;
+    font-family: 'Roboto', sans-serif;
+}
+#app,
+.footer{
+    background-color: #1d2733;
+}
+#app{
+    width: 720px;
+    height: 1442.25px;
+}
+#app .contact img{
+    width: 120px;
+    padding-right: 15px;
+}
+.contact:not(:last-of-type){
+    border-bottom: 1px solid #455262;
+}
+.contact{
+    padding: 15px;
+    position: relative;
+    transition: 0.2s;
+}
+.contact:first-of-type{
+    border-top: 1px solid #455262;
+}
+#app .contact h2{
+    color: #f3f4f6;
+    font-size: 30px;
+}
+#app .contact p{
+    color: #778797;
+    font-size:25px; 
+    height: 1.9em;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#app .contact div{
+   display: inline-block;
+   vertical-align: top;
+}
+#app .contact div time{
+    color: #778797;
+    font-size:25px; 
+    position: absolute;
+    right: 15px;
+ }
+ #app .contact i{
+     position: relative;
+     color: #7360f2; 
+     font-size: 25px;
+ }
+ #app .contact i:first-of-type{
+    left:8px;
+    margin-left: 83px;
+}
+ #app .contact p .autor{
+    color: aliceblue;
+    font-size:25px; 
+}
+#app .contact div:first-of-type{
+    width: 310px;
+}
+#app .contact:hover{
+    background-color: #2d3947;
+}
+.footer{
+    width: 720px;
+    height: 160px;
+    border-top: 1px solid #455262;
+    position: fixed;
+    top: 1442.25px;
+}
+.footer__action{
+    color: #768799;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 240px;
+}
+.footer__action:last-of-type{
+    line-height: 160px;
+    width: 0;
+}
+.footer__action:hover{
+    color: #7360f2; 
+}
+.footer__action i{
+   font-size: 2em;
+   margin-bottom: 0.3em;
+}
